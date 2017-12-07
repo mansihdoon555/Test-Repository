@@ -1,0 +1,13 @@
+use StnSolutions
+go
+
+create table ProductEntity
+(
+ID Int primary key not null,
+Name varchar(30),
+Price decimal(18,2),
+Description varchar(2048),
+Active bit,
+Stock int,
+NextRevisionDate date not null
+)
